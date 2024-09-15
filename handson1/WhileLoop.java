@@ -5,7 +5,7 @@ public class WhileLoop {
         String[] KumpulanBuah = {"Apel", "Pisang", "Mangga", "Jeruk", "Durian", "Anggur"};
         int counter = 0;
         while (counter < KumpulanBuah.length) {
-            System.out.println("Elemen ke" + (counter + 1) + "Adalah : " + KumpulanBuah[counter]);
+            System.out.println("Elemen ke " + (counter + 1) + " Adalah : " + KumpulanBuah[counter]);
             counter++;
         }
     }
